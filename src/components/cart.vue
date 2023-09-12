@@ -34,7 +34,7 @@
       </ul>
       <hr>
       <p class="total-price">Precio Total: {{ formatPrice(totalPrice) }}</p>
-      <button class="buttom-exit" @click="navigateConfectionery">Ir atras</button>
+      <button class="buttom-exit" @click="navigateConfectionery">Cancelar</button>
       <button class="buttom-cart" @click="enviarCompra">Enviar compra</button>
     </div>
   </template>
