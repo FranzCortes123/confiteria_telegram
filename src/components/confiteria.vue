@@ -60,7 +60,7 @@ export default {
   methods: {
     loadCSVData() {
       // Ruta a la API Flask que proporciona los datos del archivo CSV
-      const apiUrl = 'http://127.0.0.1:4000/api/cinemark_data';
+      const apiUrl = 'http://127.0.0.1:5500/api/cinemark_data';
 
       axios.get(apiUrl)
         .then((response) => {
